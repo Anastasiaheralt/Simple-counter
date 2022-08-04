@@ -1,8 +1,7 @@
 import React from "react";
-import { Counter } from "./Counter.jsx"; /*We import component Counter, because it has content card */
-import PropTypes from "prop-types"; /* Here, we import the proptypes*/
+import PropTypes from "prop-types";
+import { Counter } from "./Counter.jsx";
 
-/*create your first component */
 const Home = (props) => {
 	return (
 		
@@ -17,7 +16,7 @@ const Home = (props) => {
 			</div>
 			
 			<div className="col-2 slot">
-			<Counter unit={Math.floor(props.seconds/1000)%10}/>
+				<Counter unit={Math.floor(props.seconds/1000)%10}/>
 			</div>
 			
 			<div className="col-2 slot">
@@ -36,7 +35,6 @@ const Home = (props) => {
 	);
 };
 
-/* Home goes to import counter's results, for that reason we'll define with proptypes */
 Home.propTypes = {
 	seconds: PropTypes.number,
 }

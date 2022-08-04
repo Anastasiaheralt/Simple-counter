@@ -12,6 +12,6 @@ export const Counter = (props) => {
   )
 }
 
-Cardnumber.propTypes = {
+Counter.propTypes = {
 	seconds: PropTypes.number,
 }

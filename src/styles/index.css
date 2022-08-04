@@ -10,16 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-#number{
-    color: rgb(116, 55, 55);
+
+ #number{
+    color: rgb(228, 189, 31);
     text-shadow:rgb(63, 57, 57);
 }
 
 
 .slot{
-    height: 130%;
-    width: 80%;
-    background-color: white;
-    padding-top: 30%;
+    height: 130px;
+    width: 80px;
+    background-color: black;
+    padding-top: 30px;
 
 }
